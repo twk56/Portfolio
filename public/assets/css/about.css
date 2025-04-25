@@ -1,0 +1,15 @@
+#about {
+    background: #1a1a3d;
+}
+
+.about-content {
+    max-width: 800px;
+    text-align: center;
+    animation: slideUp 1s ease;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

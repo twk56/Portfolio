@@ -19,13 +19,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const themeToggle = document.getElementById("themeToggle");
     const currentTheme = localStorage.getItem("theme");
   
-    // Theme from Local Storage
     if (currentTheme === "dark") {
       document.body.classList.add("dark");
       if (themeToggle) themeToggle.textContent = "🌞";
     }
   
-    // Toggle Theme Button
     if (themeToggle) {
       themeToggle.addEventListener("click", () => {
         document.body.classList.toggle("dark");
@@ -35,8 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   
-    // Animate Header
-    const page = new Page("Thanapat | Portfolio");
+    const page = new Page("THANAWAT | Portfolio");
     page.setTitle();
     page.animateIntro();
   });

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0a0a23;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+section {
+    min-height: 100vh;
+ pessimism: 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.section-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: #00ff88;
+    position: relative;
+    animation: slideIn 1s ease;
+}
